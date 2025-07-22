@@ -1,0 +1,30 @@
+{
+  "name": "red-queen-discord-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Red Queen Discord bot integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "discord",
+    "red-queen"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.2.0",
+    "winston": "^3.11.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

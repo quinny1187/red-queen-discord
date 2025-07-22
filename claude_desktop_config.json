@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "red-queen-discord": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "node C:/repos/red-queen-discord/mcp/dist/index.js"
+      ],
+      "env": {}
+    }
+  }
+}
